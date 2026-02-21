@@ -502,7 +502,7 @@ img[alt="Stage 3wolfdesign - Développement Fullstack Symfony"], img[alt="AP0 - 
 
 .cv-preview {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
 }
@@ -517,7 +517,7 @@ img[alt="Stage 3wolfdesign - Développement Fullstack Symfony"], img[alt="AP0 - 
 }
 
 .cv-card.full-width {
-    grid-column: 1 / span 2; 
+    grid-column: 1 / -1; 
     display: flex;
     flex-direction: column;
     align-items: center;
