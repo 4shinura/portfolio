@@ -9,10 +9,11 @@
 
 ## 📋 Sections du portfolio
 1. **À propos** - Présentation personnelle et centres d'intérêt
-2. **CV** - Curriculum vitae téléchargeable + résumé
-3. **AP** - Ateliers de Professionnalisation
+2. **CV** - Curriculum vitae téléchargeable
+2. **Parcours** - Résumé de parcours scolaire & professionnel
+5. **Projets** - Projets détaillés
 4. **Compétences** - Technologies maîtrisées avec badges
-5. **Projets** - Projets personnels détaillés
+5. **Certifications** - Certifications & Formations réalisés
 6. **Contact** - Informations de contact
 
 ## 👤 Contact
