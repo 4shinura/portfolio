@@ -16,6 +16,7 @@
 5. **Projets** - Projets détaillés
 4. **Compétences** - Technologies maîtrisées avec badges
 5. **Certifications** - Certifications & Formations réalisés
+6. **Veille** - Sujet de ma veille informationnelle
 6. **Contact** - Informations de contact
 
 ## 🚀 Technologies utilisées
