@@ -1,6 +1,6 @@
-/* ==========================
+/* ===========================
    Variables CSS
-   ========================== */
+   =========================== */
 :root {
 	/* Couleurs principales */
 	--primary-color: #6366f1;
@@ -18,7 +18,7 @@
 	--dark-light: #1e293b;
 	--gray: #64748b;
 	--gray-light: #cbd5e1;
-	--light: #f8fafc;
+	--light: #f5f8fa;
 	--white: #ffffff;
 	--gold: #ffbf00;
 	--dark-gold: #daa300;
@@ -446,7 +446,7 @@ img[alt="AP0 - MaraiBio"] {
 }
 
 .about-text {
-	max-width: 900px;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -726,6 +726,7 @@ img[alt="AP0 - MaraiBio"] {
 	padding: var(--spacing-md);
 	border-radius: var(--radius-lg);
 	width: 100%;
+	height: 30vh;
 	box-sizing: border-box;
 }
 
@@ -800,6 +801,250 @@ img[alt="AP0 - MaraiBio"] {
 	color: var(--gray);
 	font-size: 0.875rem;
 	margin: 0;
+}
+
+/* ==========================
+   Veille Informationnelle Section
+   ========================== */
+/* ==========================
+   Veille Informationnelle Section
+   ========================== */
+.veille {
+    background: var(--white);
+    min-height: auto;
+    padding: var(--spacing-lg) 0;
+}
+
+.veille-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.veille-card {
+    background: var(--light);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-normal);
+    border: 1px solid var(--gray-light);
+}
+
+.veille-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+/* === CARTE PRINCIPALE : override des couleurs === */
+.veille-main {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: var(--white);
+    border: none;
+}
+
+.veille-main h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.veille-main p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-md);
+}
+
+.veille-main .veille-header i {
+    color: var(--white);
+}
+
+.veille-main .veille-tag {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--white);
+}
+
+/* Trends dans la carte principale */
+.veille-main .trend-item {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.veille-main .trend-item i,
+.veille-main .trend-item span {
+    color: var(--white);
+}
+
+/* === CARTES STANDARD === */
+.veille-card:not(.veille-main) h3 {
+    font-size: 1.25rem;
+    color: var(--dark);
+    margin-bottom: var(--spacing-sm);
+}
+
+.veille-card:not(.veille-main) p {
+    color: var(--gray);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+}
+
+.veille-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.veille-header i {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+
+.veille-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 10px;
+    background: var(--white);
+    color: var(--primary-color);
+    border-radius: var(--radius-sm);
+}
+
+/* Trends */
+.veille-trends {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.trend-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    background: var(--white);
+}
+
+.trend-item i {
+    font-size: 1.1rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+    color: var(--primary-color);
+}
+
+.trend-item span {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--gray);
+}
+
+/* Tools list */
+.veille-tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
+}
+
+.tool-tag {
+    display: inline-block;
+    padding: 6px 14px;
+    background: var(--white);
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--primary-light);
+    transition: all var(--transition-fast);
+}
+
+.tool-tag:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+/* Checklist */
+.veille-checklist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
+}
+
+.veille-checklist li {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.9375rem;
+    color: var(--gray);
+}
+
+.veille-checklist li i {
+    color: var(--primary-color);
+    font-size: 0.875rem;
+}
+
+/* Source / Methods */
+.veille-source {
+    grid-column: 1 / -1;
+    background: var(--light);
+}
+
+.veille-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+.method-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+    background: var(--white);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--gray-light);
+}
+
+.method-item i {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    width: 20px;
+    text-align: center;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.method-item span {
+    font-size: 0.875rem;
+    color: var(--gray);
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .veille-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .veille-main,
+    .veille-source {
+        grid-column: 1;
+    }
+    
+    .veille-trends {
+        grid-template-columns: 1fr;
+    }
+    
+    .veille-methods {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ==========================

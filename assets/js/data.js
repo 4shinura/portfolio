@@ -128,12 +128,61 @@ const proData = [
 
 const scoData = [
 	{
+		id: "ap4_trouve-ton-job",
+		status: "success",
+		statusText: "Terminé | Archivé",
+		image: "assets/img/AP4_TrouveTonJob.png",
+		date: "DU 05/12/2025 au 03/04/2026",
+		title: "AP4 - Trouve Ton Job",
+		description:
+			"Atelier de Professionnalisation - Développement d'une application mobile Android native connectée à une API REST pour la recherche d'emploi, la gestion des candidatures et la messagerie entre utilisateurs.",
+		fullDescription: `
+            <h2>Objectifs du projet</h2>
+            <ul>
+                <li>Concevoir une application mobile intuitive permettant aux candidats de consulter et postuler aux offres d'emploi disponibles.</li>
+                <li>Mettre en place un système de candidature en ligne avec suivi des postulations et possibilité de retrait.</li>
+                <li>Développer un module de messagerie intégré pour faciliter les échanges entre candidats et recruteurs.</li>
+                <li>Assurer la sécurité des données utilisateurs via un système d'authentification avec tokens JWT et gestion de sessions.</li>
+                <li>Structurer le projet en couches distinctes (UI, API, modèles) pour faciliter la maintenance et l'évolution.</li>
+            </ul>
+            
+            <h2>Réalisations techniques</h2>
+            <ul>
+                <li>Développement de l'application en <code>Java</code> natif sous Android avec utilisation des composants <code>Jetpack</code> (RecyclerView, Navigation Component, Material Design).</li>
+                <li>Intégration d'une API REST distante via <code>Retrofit</code> et <code>Gson</code> pour la synchronisation des données (offres, candidatures, messages, profils).</li>
+                <li>Mise en œuvre d'un système d'authentification sécurisé avec gestion de tokens JWT et persistance des sessions via <code>SharedPreferences</code>.</li>
+                <li>Implémentation d'un module de messagerie temps réel permettant l'envoi et la réception de messages entre utilisateurs.</li>
+                <li>Architecture du projet en couches séparées : <code>adapter</code> (affichage), <code>api</code> (communication), <code>entity</code> (modèles), <code>util</code> (gestion de session).</li>
+                <li>Gestion rigoureuse des erreurs réseau (codes HTTP 401, 404, 409) avec retours utilisateur explicites via <code>Toast</code> et <code>AlertDialog</code>.</li>
+                <li>Utilisation de <code>Android Studio</code> pour le développement et <code>Git/GitHub</code> pour le versionnage du code.</li>
+            </ul>
+            
+            <h2>Compétences développées</h2>
+            <ul>
+                <li>Maîtrise du développement mobile Android natif et des patterns d'architecture logicielle.</li>
+                <li>Consommation d'API REST et manipulation de données JSON avec Retrofit et Gson.</li>
+                <li>Gestion de l'authentification et des habilitations utilisateurs sur application mobile.</li>
+                <li>Conception d'interfaces utilisateur réactives avec Material Design et gestion des états de connexion.</li>
+                <li>Publication et gestion de son identité professionnelle via un portfolio GitHub public.</li>
+            </ul>
+        `,
+		badges: [
+			"https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
+			"https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white",
+			"https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white",
+			"https://img.shields.io/badge/Retrofit-3DDC84?style=for-the-badge&logo=square&logoColor=white",
+			"https://img.shields.io/badge/Gson-000000?style=for-the-badge&logo=json&logoColor=white",
+			"https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white",
+			"https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white",
+			"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white",
+		],
+	},
+	{
 		id: "ap3_labo-lbc",
 		status: "success",
 		statusText: "Terminé | Archivé",
 		image: "assets/img/AP3_labo-lbc.png",
-		date: "Fin 2025",
-
+		date: "Du 03/10/2025 au 21/11/2025",
 		title: "AP3 - Labo LBC",
 		description:
 			"Atelier de Professionnalisation - Développement d'une application web sécurisée en architecture MVC pour la gestion des rapports de visites, des praticiens et de la distribution d'échantillons au sein d'un laboratoire pharmaceutique.",
@@ -178,8 +227,7 @@ const scoData = [
 		status: "success",
 		statusText: "Terminé | Archivé",
 		image: "assets/img/AP2_course-hippique.png",
-		date: "Janvier 2025 - Avril 2025",
-
+		date: "Du 23/01/2025 au 03/04/2025",
 		title: "AP2 - Courses Hippiques",
 		description:
 			"Atelier de Professionnalisation - Conception et intégration d'une interface web sur mesure pour la gestion de courses hippiques, mettant l'accent sur l'ergonomie utilisateur et la structure HTML/CSS.",
@@ -223,11 +271,10 @@ const scoData = [
 		status: "success",
 		statusText: "Terminé | Archivé",
 		image: "assets/img/bst79.png",
-		date: "Décembre 2024 - Février 2025",
-
+		date: "Du 28/11/2024 au 19/12/2024",
 		title: "AP1 - BST79",
 		description:
-			"Conception et réalisation du site vitrine de l'entreprise de chaudronnerie BST 79, incluant la mise en place d'un système de gestion de contenu et la rédaction d'un guide utilisateur.",
+			"Atelier de Professionnalisation - Conception et réalisation du site vitrine de l'entreprise de chaudronnerie BST 79, incluant la mise en place d'un système de gestion de contenu et la rédaction d'un guide utilisateur.",
 		fullDescription: `
             <h2>Objectifs du projet</h2>
             <ul>
@@ -273,8 +320,7 @@ const scoData = [
 		status: "success",
 		statusText: "Terminé | Archivé",
 		image: "assets/img/AP0_maraibio.png",
-		date: "Septembre 2024 - Novembre 2024",
-
+		date: "Du 10/10/2024 au 14/11/2024",
 		title: "AP0 - MaraiBio",
 		description:
 			"Atelier de Professionnalisation - Mise en place complète d'une infrastructure réseau pour une PME, incluant la virtualisation d'un serveur Windows 2019, la gestion d'un domaine Active Directory et le déploiement physique.",
