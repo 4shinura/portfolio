@@ -538,7 +538,7 @@ const persoData = [
 			"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
 			"https://img.shields.io/badge/Build-PyInstaller-FFD43B?style=for-the-badge&logo=python&logoColor=white",
 			"https://img.shields.io/badge/Lib-Flask-222222?style=for-the-badge&logo=python&logoColor=white",
-			"https://img.shields.io/badge/Lib-yt--dlp-222222?style=for-the-badge&logo=python&logoColor=white",
+			"https://img.shields.io/badge/Lib-yt--dlp-CC0000?style=for-the-badge&logo=python&logoColor=white",
 			"https://img.shields.io/badge/Lib-spotdl-1DB954?style=for-the-badge&logo=python&logoColor=white",
 			"https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white",
 			"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white",
