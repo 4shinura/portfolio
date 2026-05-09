@@ -194,6 +194,11 @@ const scoData = [
 		],
 		links: [
 			{
+				url: "https://github.com/4shinura/ttj-mobile",
+				label: "Repo GitHub",
+				icon: "fab fa-github",
+			},
+			{
 				url: "https://docs.google.com/document/d/1f2DCNrGzVg1TrT1sbhKVvQRIi0tvT0SShWIfHEVsgkk",
 				label: "Document de Preuves",
 				icon: "fas fa-external-link-alt",
@@ -246,6 +251,11 @@ const scoData = [
 			"https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white",
 		],
 		links: [
+			{
+				url: "https://github.com/Val648/labolbc",
+				label: "Repo GitHub",
+				icon: "fab fa-github",
+			},
 			{
 				url: "https://docs.google.com/document/d/1El-SOVVrDGbq1H1jtBG3bftr5WaS6vc6JvqM7OzTgNs",
 				label: "Document de Preuves",
