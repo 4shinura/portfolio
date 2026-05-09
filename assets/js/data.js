@@ -6,7 +6,7 @@ const proData = [
 	{
 		id: "stage-3wolfdesign",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Stable | Terminé",
 		image: "assets/img/3wolfdesign-logo.png",
 		date: "Janvier 2026 - Février 2026",
 
@@ -33,10 +33,14 @@ const proData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Maîtrise du cycle de vie complet d'un projet web, de l'analyse du besoin client à la mise en production.</li>
-                <li>Apprentissage en autonomie et implémentation des nouveautés techniques de l'écosystème Symfony.</li>
-                <li>Traduction d'exigences métier spécifiques en fonctionnalités techniques (gestion catalogue vs galerie).</li>
-                <li>Rigueur dans le développement back-end et optimisation de l'expérience utilisateur (UX/UI).</li>
+                <li>Maîtrise du cycle de vie intégral d'un projet web, de l'analyse du besoin métier à la rédaction du cahier des charges et la mise en production.</li>
+                <li>Conception d'architectures applicatives modernes via l'écosystème Symfony, incluant la gestion des assets et l'intégration de services tiers (PayPal).</li>
+                <li>Mise en œuvre d'une politique de sécurité robuste : gestion des rôles (Security Bundle), conformité RGPD et rédaction des cadres légaux (CGU).</li>
+                <li>Administration d'infrastructures de production avec automatisation de la résilience des données par la mise en place de tâches Cron et de Backups.</li>
+                <li>Pilotage de projet en autonomie via une gestion par tickets (Trello), assurant la traçabilité des développements et le respect des délais.</li>
+                <li>Optimisation du déploiement continu par la maîtrise des procédures de migration de base de données et de build d'assets en environnement réel.</li>
+                <li>Garantie de la qualité logicielle par la réalisation de tests unitaires et de tests d'acceptation utilisateur (UAT) sur les parcours critiques.</li>
+                <li>Développement de back-offices complexes permettant une gestion granulaire des catalogues produits et des commandes clients.</li>
             </ul>
         `,
 		badges: [
@@ -56,7 +60,7 @@ const proData = [
 		links: [
 			{
 				url: "https://github.com/4shinura/3wolfdesign",
-				label: "GitHub Repo",
+				label: "Repo GitHub",
 				icon: "fab fa-github",
 			},
 			{
@@ -64,12 +68,17 @@ const proData = [
 				label: "Voir le site",
 				icon: "fas fa-external-link-alt",
 			},
+			{
+				url: "https://docs.google.com/document/d/1YdV_S9-M7DHyraZOAkxPgE6FiIctMePEOPtO1IcUsWc",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
 		],
 	},
 	{
 		id: "stage-kelio",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Stable | Terminé",
 		image: "assets/img/kelio-logo.png",
 		date: "Mai 2025 - Juin 2025",
 
@@ -96,10 +105,12 @@ const proData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Adaptation rapide à un environnement technique spécifique (framework propriétaire).</li>
-                <li>Expérience concrète du cycle de vie logiciel en entreprise, de la planification GitLab à la revue de code.</li>
-                <li>Compréhension des enjeux de la refonte d'applications métiers critiques pour la production.</li>
-                <li>Travail collaboratif et communication au sein d'une équipe R&D structurée.</li>
+                <li>Montée en compétence et adaptation à un environnement technique complexe via l'étude d'un micro-framework interne.</li>
+                <li>Sécurisation des flux de données par la mise en œuvre de patterns DAO et la prévention proactive des doublons en base de données.</li>
+                <li>Maîtrise du workflow de production collaboratif : gestion de tickets (TeamTrack), création de branches et Merge Requests sur GitLab.</li>
+                <li>Réalisation de la refonte d'interfaces métiers critiques et déploiement de solutions logicielles en environnement de production réel.</li>
+                <li>Application des méthodologies Agiles au sein d'un bureau d'études, incluant la planification et l'analyse des écarts de charge (estimé vs réel).</li>
+                <li>Valorisation de l'identité professionnelle et partage d'expérience technique via la communication sur les réseaux professionnels.</li>
             </ul>
         `,
 		badges: [
@@ -117,6 +128,11 @@ const proData = [
 				label: "Site Kelio",
 				icon: "fas fa-building",
 			},
+			{
+				url: "https://docs.google.com/document/d/1qtiUVRsgAgABA0IgYeharDnJBdmKFsEsYuYdyhCasm8",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
 		],
 	},
 ];
@@ -130,7 +146,7 @@ const scoData = [
 	{
 		id: "ap4_trouve-ton-job",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Archivé | Terminé",
 		image: "assets/img/AP4_TrouveTonJob.png",
 		date: "DU 05/12/2025 au 03/04/2026",
 		title: "AP4 - Trouve Ton Job",
@@ -159,11 +175,11 @@ const scoData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Maîtrise du développement mobile Android natif et des patterns d'architecture logicielle.</li>
-                <li>Consommation d'API REST et manipulation de données JSON avec Retrofit et Gson.</li>
-                <li>Gestion de l'authentification et des habilitations utilisateurs sur application mobile.</li>
-                <li>Conception d'interfaces utilisateur réactives avec Material Design et gestion des états de connexion.</li>
-                <li>Publication et gestion de son identité professionnelle via un portfolio GitHub public.</li>
+                <li>Conception et développement d'une interface mobile réactive connectée en temps réel à une API REST pour l'exploitation de données.</li>
+                <li>Mise en œuvre d'une architecture logicielle en couches pour assurer la séparation des responsabilités et la maintenabilité du code.</li>
+                <li>Implémentation d'un système d'authentification sécurisé incluant la gestion des sessions et des habilitations utilisateurs.</li>
+                <li>Optimisation de l'expérience utilisateur par la gestion proactive des erreurs réseau et des feedbacks d'état de connexion.</li>
+                <li>Maîtrise du cycle de vie du développement, du versionnage via Git jusqu'à la publication du projet sur un dépôt GitHub public.</li>
             </ul>
         `,
 		badges: [
@@ -176,11 +192,18 @@ const scoData = [
 			"https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white",
 			"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white",
 		],
+		links: [
+			{
+				url: "https://docs.google.com/document/d/1f2DCNrGzVg1TrT1sbhKVvQRIi0tvT0SShWIfHEVsgkk",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
+		],
 	},
 	{
 		id: "ap3_labo-lbc",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Archivé | Terminé",
 		image: "assets/img/AP3_labo-lbc.png",
 		date: "Du 03/10/2025 au 21/11/2025",
 		title: "AP3 - Labo LBC",
@@ -206,10 +229,11 @@ const scoData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Maîtrise de la programmation orientée objet et du pattern Modèle-Vue-Contrôleur en PHP.</li>
-                <li>Conception de bases de données complexes et optimisation de requêtes SQL.</li>
-                <li>Gestion de projet en autonomie avec l'utilisation de méthodes Agile (Trello/Kanban).</li>
-                <li>Rédaction de documentation technique complète, incluant diagrammes de cas d'utilisation et schémas de navigation.</li>
+                <li>Planification et pilotage de projet en mode Agile via l'utilisation d'outils de gestion de tâches collaboratifs.</li>
+                <li>Automatisation de processus métiers par le développement de scripts de génération dynamique de documents au format PDF.</li>
+                <li>Conception de l'architecture logicielle et modélisation des parcours utilisateurs pour optimiser l'ergonomie de navigation.</li>
+                <li>Développement d'interfaces de suivi métier permettant la consultation, le filtrage et l'extraction de données structurées.</li>
+                <li>Mise en œuvre de solutions logicielles facilitant la recherche et l'accès rapide aux comptes rendus d'activité.</li>
             </ul>
         `,
 		badges: [
@@ -221,11 +245,18 @@ const scoData = [
 			"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white",
 			"https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white",
 		],
+		links: [
+			{
+				url: "https://docs.google.com/document/d/1El-SOVVrDGbq1H1jtBG3bftr5WaS6vc6JvqM7OzTgNs",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
+		],
 	},
 	{
 		id: "ap2_course-hippique",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Archivé | Terminé",
 		image: "assets/img/AP2_course-hippique.png",
 		date: "Du 23/01/2025 au 03/04/2025",
 		title: "AP2 - Courses Hippiques",
@@ -251,10 +282,11 @@ const scoData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Maîtrise de l'intégration web statique et dynamique (HTML/CSS/PHP) sans recours à un CMS[cite: 4].</li>
-                <li>Application des principes d'ergonomie et de design pour une interface métier simple et pratique.</li>
-                <li>Gestion de projet structurée avec suivi des délais et planification via <code>Trello</code>.</li>
-                <li>Administration de base de données relationnelle et gestion d'hébergement web[cite: 4].</li>
+                <li>Mise en œuvre d'un système de contrôle d'accès sécurisé incluant la gestion des rôles (Administrateur/Utilisateur) et l'authentification PHP.</li>
+                <li>Réalisation d'une analyse fonctionnelle rigoureuse et rédaction de la documentation technique pour assurer la pérennité du projet.</li>
+                <li>Configuration et administration d'un service web sur une infrastructure d'hébergement professionnelle (IONOS).</li>
+                <li>Maîtrise de la gestion de projet agile par le découpage de problématiques complexes en tâches atomiques suivies via Trello.</li>
+                <li>Conception d'une architecture web dynamique sans CMS, favorisant le contrôle total sur le code et l'optimisation des performances.</li>
             </ul>
         `,
 		badges: [
@@ -265,11 +297,18 @@ const scoData = [
 			"https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white",
 			"https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white",
 		],
+		links: [
+			{
+				url: "https://docs.google.com/document/d/1-0KNV27ELgJ1BdPz_B8vNK5RYwoTxTRQqwL8gLfx3Gw",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
+		],
 	},
 	{
 		id: "ap1_bst79",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Stable | Terminé",
 		image: "assets/img/bst79.png",
 		date: "Du 28/11/2024 au 19/12/2024",
 		title: "AP1 - BST79",
@@ -295,10 +334,11 @@ const scoData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Maîtrise d'un système de gestion de contenu (CMS) et de ses outils d'édition visuelle.</li>
-                <li>Gestion de projet en équipe avec suivi de l'avancement via des diagrammes de GANTT (prévisionnel vs réel).</li>
-                <li>Adaptation de la communication technique pour un client non-informaticien.</li>
-                <li>Sensibilité à l'expérience utilisateur (UX) et aux contraintes du référencement naturel (SEO).</li>
+                <li>Conception et déploiement d'une solution Web vitrine répondant aux objectifs de communication et d'image d'une organisation.</li>
+                <li>Pilotage de projet par la planification temporelle et la journalisation des ressources via un diagramme de Gantt.</li>
+                <li>Vulgarisation technique et rédaction d'un support d'accompagnement pour permettre l'administration autonome du site par le client.</li>
+                <li>Analyse fonctionnelle des besoins utilisateurs et résolution de problématiques techniques complexes en cours de réalisation.</li>
+                <li>Maîtrise des outils d'édition de contenu (CMS) pour assurer une mise à jour fluide et structurée de l'information.</li>
             </ul>
         `,
 		badges: [
@@ -313,12 +353,17 @@ const scoData = [
 				label: "Voir le site",
 				icon: "fas fa-external-link-alt",
 			},
+			{
+				url: "https://docs.google.com/document/d/1OpeZtg8Jq8EQE7Kjqob7uEIsYhboifRvaZtMYcanYrE",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
 		],
 	},
 	{
 		id: "ap0_maraibio",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Archivé | Terminé",
 		image: "assets/img/AP0_maraibio.png",
 		date: "Du 10/10/2024 au 14/11/2024",
 		title: "AP0 - MaraiBio",
@@ -344,10 +389,11 @@ const scoData = [
             
             <h2>Compétences développées</h2>
             <ul>
-                <li>Administration de services d'annuaire (Active Directory) et gestion des permissions.</li>
-                <li>Maîtrise de la virtualisation et configuration système sous Windows Server.</li>
-                <li>Conception de schémas réseau et compréhension des protocoles TCP/IP.</li>
-                <li>Mise en œuvre d'une infrastructure physique (brassage, configuration de commutateurs).</li>
+                <li>Conception d'architectures réseau virtualisées via Packet Tracer et déploiement opérationnel d'infrastructures physiques.</li>
+                <li>Administration de services d'annuaire (Active Directory) par la structuration d'Unités d'Organisation et la gestion fine des droits d'accès.</li>
+                <li>Pilotage de projet par la planification de la charge de travail et le suivi de l'avancement via des diagrammes de Gantt.</li>
+                <li>Analyse de performance par la confrontation entre le planning prévisionnel et la réalisation réelle du projet.</li>
+                <li>Maîtrise des couches physiques et logiques du réseau, incluant le brassage, le câblage et la configuration des équipements de commutation.</li>
             </ul>
         `,
 		badges: [
@@ -356,11 +402,18 @@ const scoData = [
 			"https://img.shields.io/badge/GPO-CC0000?style=for-the-badge&logo=active-directory&logoColor=white",
 			"https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white",
 		],
+		links: [
+			{
+				url: "https://docs.google.com/document/d/1XuqfmZHj288B5syf8zyeOnnHdv1rS6bxzo6Knja5Ls8",
+				label: "Document de Preuves",
+				icon: "fas fa-external-link-alt",
+			},
+		],
 	},
 	{
 		id: "ruche-connectee",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Archivé | Terminé",
 		image: "assets/img/connected-hive.png",
 		date: "Novembre 2023 - Juin 2024",
 
@@ -458,7 +511,7 @@ const persoData = [
 	{
 		id: "dietpi-infra",
 		status: "success",
-		statusText: "Terminé | Archivé",
+		statusText: "Archivé | Terminé",
 		image: "assets/img/grass-projet.png",
 		date: "Fin 2024 - Début 2025",
 
@@ -501,7 +554,7 @@ const persoData = [
 	{
 		id: "streaming-downloader",
 		status: "success",
-		statusText: "Stable | Développement à l'arrêt",
+		statusText: "Stable | Développement actif",
 		image: "assets/img/str-dl_logo.png",
 		date: "Août 2023 - Indéterminé",
 
