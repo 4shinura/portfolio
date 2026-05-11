@@ -287,7 +287,7 @@ const scoData = [
                 <li>L'utilisation du framework <code>Bootstrap</code> m'a permis d'optimiser la mise en page et de garantir une compatibilité mobile complète.</li>
                 <li>J'ai développé la logique de persistance des données en <code>PHP</code> natif, permettant d'enregistrer et de modifier les informations des chevaux et jockeys en base de données.</li>
                 <li>La structure de données a été modélisée sous <code>MySQL</code> pour lier efficacement les participants aux différentes courses prévues.</li>
-                <li>Le déploiement final a été effectué sur un environnement <code>IONOS</code> via le client <code>FileZilla</code>[cite: 4].</li>
+                <li>Le déploiement final a été effectué sur un environnement <code>IONOS</code> via le client <code>FileZilla</code>.</li>
             </ul>
             
             <h2>Compétences développées</h2>
